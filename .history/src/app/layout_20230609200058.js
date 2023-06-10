@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter, Roboto, Poppins } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import Navbar from 'src/components/navbar/Navbar.jsx'
 import Footer from 'src/components/footer/Footer.jsx'
 
@@ -17,8 +17,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar/>
         {children}
-      <Footer/>
       </body>
+      <Footer/>
     </html>
   )
 }

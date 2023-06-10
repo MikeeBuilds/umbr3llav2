@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter, Roboto, Poppins } from 'next/font/google'
+import { Inter, Roboto } from 'next/font/google'
 import Navbar from 'src/components/navbar/Navbar.jsx'
 import Footer from 'src/components/footer/Footer.jsx'
 
